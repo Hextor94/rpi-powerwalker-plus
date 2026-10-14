@@ -39,6 +39,14 @@ Non condividere il token e non inserirlo in questo file.
 
 L'immagine Docker non trasferisce automaticamente le configurazioni e i dati persistenti contenuti nel volume. Devi creare un archivio sul vecchio PC e copiarlo sul nuovo.
 
+### 3.05 Nuova installazione
+
+Comando per la creazione del volume
+
+```bash
+sudo docker volume create powermaster_data
+```
+
 ### 3.1 Vecchio PC: creare il backup
 
 Per evitare modifiche ai dati durante la copia, arresta temporaneamente il container:
